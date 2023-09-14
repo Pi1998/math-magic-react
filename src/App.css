@@ -13,7 +13,7 @@ body {
 .calculator-grid {
   display: grid;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 10%;
   grid-template-columns: repeat(4, 13%);
   grid-template-rows: minmax(60%, auto) repeat(5, 40%);
 }

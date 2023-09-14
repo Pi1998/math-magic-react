@@ -43,8 +43,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Coming soon!!!
-> 
+- Build with React JS
+- Used JSX
+- Basic Calculator functionality
+- CSS styling
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

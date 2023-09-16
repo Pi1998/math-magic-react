@@ -13,7 +13,7 @@ body {
 .calculator-grid {
   display: grid;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 5%;
   grid-template-columns: repeat(4, 13%);
   grid-template-rows: minmax(60%, auto) repeat(5, 40%);
 }
@@ -48,4 +48,13 @@ body {
   color: white;
   font-size: 30px;
   padding: 5px;
+}
+
+.dad-joke-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
 }

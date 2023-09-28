@@ -47,6 +47,7 @@
 - Used JSX
 - Basic Calculator functionality
 - CSS styling
+- React Routers
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +126,7 @@ Start the project
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add calculator feature
+- Update the page design
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

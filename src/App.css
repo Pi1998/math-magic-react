@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -57,4 +58,74 @@ body {
   border-radius: 5px;
   text-align: center;
   font-size: 18px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+}
+
+.page-name {
+  flex-grow: 1;
+  color: gold;
+  font-size: 2em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Home page */
+
+.home-container {
+  margin: 10% 5% 5% 5%;
+  color: white;
+}
+
+.home-container h1 {
+  padding-bottom: 40px;
+}
+
+/* Quote page */
+
+.joke {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  margin-top: 20%;
+  padding: 0 5%;
+}
+
+.loading {
+  color: gold;
+}
+
+.error {
+  color: red;
 }

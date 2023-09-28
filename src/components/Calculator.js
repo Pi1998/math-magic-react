@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
-import DadJoke from './DadJoke';
 
 function CalculatorButton({ label, customClass, onClick }) {
   return (
@@ -26,9 +25,6 @@ function Calculator() {
 
   return (
     <div>
-      <div className="dad-joke-container">
-        <DadJoke />
-      </div>
       <div className="calculator-grid">
         <div className="output">{calculatorData.next || calculatorData.total || '0'}</div>
         <CalculatorButton label="AC" onClick={handleButtonClick} />

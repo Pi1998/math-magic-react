@@ -11,12 +11,26 @@ body {
   background: linear-gradient(to right, black, grey);
 }
 
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 6%;
+}
+
+.calculator-header {
+  color: whitesmoke;
+  margin-left: 3%;
+  font-size: large;
+}
+
 .calculator-grid {
   display: grid;
-  justify-content: center;
-  margin-top: 5%;
-  grid-template-columns: repeat(4, 13%);
+  justify-content: end;
+  margin-right: 3%;
+  grid-template-columns: repeat(4, 25%);
   grid-template-rows: minmax(60%, auto) repeat(5, 40%);
+  width: 50%;
 }
 
 .calculator-grid > button {

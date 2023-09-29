@@ -4,18 +4,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
   background: linear-gradient(to right, black, grey);
 }
 
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 6%;
+}
+
+.calculator-header {
+  color: whitesmoke;
+  margin-left: 3%;
+  font-size: large;
+}
+
 .calculator-grid {
   display: grid;
-  justify-content: center;
-  margin-top: 5%;
-  grid-template-columns: repeat(4, 13%);
+  justify-content: end;
+  margin-right: 3%;
+  grid-template-columns: repeat(4, 25%);
   grid-template-rows: minmax(60%, auto) repeat(5, 40%);
+  width: 50%;
 }
 
 .calculator-grid > button {
@@ -57,4 +72,74 @@ body {
   border-radius: 5px;
   text-align: center;
   font-size: 18px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+}
+
+.page-name {
+  flex-grow: 1;
+  color: gold;
+  font-size: 2em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Home page */
+
+.home-container {
+  margin: 10% 5% 5% 5%;
+  color: white;
+}
+
+.home-container h1 {
+  padding-bottom: 40px;
+}
+
+/* Quote page */
+
+.joke {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  margin-top: 20%;
+  padding: 0 5%;
+}
+
+.loading {
+  color: gold;
+}
+
+.error {
+  color: red;
 }

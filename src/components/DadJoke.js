@@ -29,14 +29,14 @@ const DadJoke = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading dad joke...</p>;
+    return <p className="joke loading">Loading dad joke...</p>;
   }
 
   if (error) {
-    return <p>{error}</p>;
+    return <p className="joke error">{error}</p>;
   }
 
-  return <p>{joke}</p>;
+  return <p className="joke">{joke}</p>;
 };
 
 export default DadJoke;
